@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#cc383838</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#fd232323</color>
+    <color name="light_gray">#ffe2e3e3</color>
+    <color name="deep_green">#ff24ad11</color>
+    <color name="deep_blue">#ff1e4d9b</color>
+    <color name="sky_blue">#da2878f4</color>
+
+    <!--这里的标签决定了在哪个内部类里，与文件名无关-->
+    <color name="material_blue_500">#009688</color>
+    <color name="material_blue_700">#00796B</color>
+    <color name="material_green_A200">#FD87A9</color>
+</resources>

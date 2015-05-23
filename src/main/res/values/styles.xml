@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--colorPrimary颜色表示ActionBar的颜色，colorPrimaryDark表示状态栏的颜色，colorAccent
+    表示editText等被选中之后的颜色
+    如果我们需要使用ToolBar来代替ActionBar时候就需要使无标题栏（ActionBar）的主题
+    众所周知，在使用ActionBar的时候，一堆的问题：这个文字能不能定制，位置能不能改变，图标的间距怎么控制神马的，
+    由此暴露出了ActionBar设计的不灵活。为此官方提供了ToolBar，并且提供了supprot library用
+    于向下兼容。Toolbar之所以灵活，是因为它其实就是一个ViewGroup，
+    我们在使用的时候和普通的组件一样，在布局文件中声明
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"><!--Light.DarkActionBar表示默认的黑色主体的Actionbar-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="colorPrimaryDark">@color/deep_blue</item>
+        <item name="colorAccent">@color/material_deep_teal_200</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sky_blue"
+        ></android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/id_drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--主页面-->
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <!--侧边栏菜单布局-->
+        <FrameLayout
+            android:id="@+id/left_menu"
+            android:layout_gravity="left"
+            android:layout_width="290dp"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>
